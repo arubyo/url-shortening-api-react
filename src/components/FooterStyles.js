@@ -26,14 +26,13 @@ export const Column = styled.div`
 display: flex;
 flex-direction: column;
 text-align: left;
-margin-left: 60px;
+margin-left: 20px;
 `;
 
 export const Row = styled.div`
 display: grid;
 grid-template-columns: repeat(auto-fill,
 						minmax(185px, 1fr));
-grid-gap: 20px;
 
 @media (max-width: 1000px) {
 	grid-template-columns: repeat(auto-fill,
@@ -56,6 +55,15 @@ text-decoration: none;
 export const Heading = styled.p`
 font-size: 24px;
 color: #fff;
-margin-bottom: 40px;
+margin-bottom: 20px;
 font-weight: bold;
+`;
+
+
+
+export const ColumnSocials = styled.div`
+display: flex;
+flex-direction: row;
+text-align: left;
+margin-left: 60px;
 `;

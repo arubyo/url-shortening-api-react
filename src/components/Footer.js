@@ -5,18 +5,23 @@ Container,
 Row,
 Column,
 FooterLink,
-Heading,
+Heading, 
+ColumnSocials
 } from "./FooterStyles";
+import { GrFacebook, GrTwitter, GrPinterest, GrInstagram } from 'react-icons/gr'; 
 
 const Footer = () => {
 return (
 	<Box>
-	<h3 style={{ color: "white",
+	
+	<Container>
+		<Row>
+            <Column>
+            <h3 style={{ color: "white",
 				textAlign: "left",
 				marginTop: "-50px" }}>
 Shortly	</h3>
-	<Container>
-		<Row>
+            </Column>
 		<Column>
 			<Heading>Features</Heading>
 			<FooterLink href="#">Link Shortening</FooterLink>
@@ -36,33 +41,21 @@ Shortly	</h3>
 			<FooterLink href="#">Careers</FooterLink>
 			<FooterLink href="#">Contact</FooterLink>
 		</Column>
-		<Column>
-			<Heading>Social Media</Heading>
+		<ColumnSocials>
 			<FooterLink href="#">
-			<i className="fab fa-facebook-f">
-				<span style={{ marginLeft: "10px" }}>
-				Facebook
-				</span>
-			</i>
+			<GrFacebook />
+			</FooterLink>
+            <FooterLink href="#">
+            < GrTwitter />
+            </FooterLink>
+			
+			<FooterLink href="#">
+			<GrPinterest />
 			</FooterLink>
 			<FooterLink href="#">
-			<img src="./../assets/images/icon-facebook.svg" />
+			<GrInstagram />
 			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-twitter">
-				<span style={{ marginLeft: "10px" }}>
-				Twitter
-				</span>
-			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-youtube">
-				<span style={{ marginLeft: "10px" }}>
-				Youtube
-				</span>
-			</i>
-			</FooterLink>
-		</Column>
+		</ColumnSocials>
 		</Row>
 	</Container>
 	</Box>
