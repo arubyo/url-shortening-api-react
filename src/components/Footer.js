@@ -9,10 +9,14 @@ Heading,
 ColumnSocials
 } from "./FooterStyles";
 import { GrFacebook, GrTwitter, GrPinterest, GrInstagram } from 'react-icons/gr'; 
-
+import Banner
+ from "./Banner";
 const Footer = () => {
 return (
-	<Box>
+    <>
+   
+	
+    <Box>
 	
 	<Container>
 		<Row>
@@ -59,6 +63,7 @@ Shortly	</h3>
 		</Row>
 	</Container>
 	</Box>
+    </>
 );
 };
 export default Footer;
