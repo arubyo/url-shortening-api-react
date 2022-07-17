@@ -38,3 +38,7 @@
     transform: rotate(360deg);
   }
 }
+
+.footer-container {
+  color: hsl(257, 27%, 26%); 
+}
