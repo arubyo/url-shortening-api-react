@@ -13,4 +13,16 @@ export const BoxedContainer = styled.div`
     justify-content: center;
     border-radius: 6px;
     align-items: center;
+    position: relative;
+    top: 60px;
 `
+
+export const Button = styled.button`
+border-radius: 12px;
+color: #FFF;
+font-weight: bold;
+background-color:  hsl(180, 66%, 49%); 
+border: none;
+padding: 12px 30px;
+margin-left: 10px;
+`;
