@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/esm/Container';
 import MainContainer from './components/Container';
 import LinkContainer from './components/LinkContainer';
 import { Heading, Para } from './components/TypographyStyles';
+import FeatureCard from './components/FeatureCard';
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
       <Navigation />
       <MainContainer />
       <LinkContainer />
-      <Container fluid style={{ backgroundColor: "#f8f9fa",
+      <Container fluid style={{ backgroundColor: "#eef1f6",
      paddingBottom: "335px",
-     height: "100vh" 
+     height: "140vh" 
 				 }}>
           <Container style={{ display: "flex",
      flexDirection: "column",
@@ -30,6 +31,8 @@ function App() {
 <Heading>Advanced Statistics</Heading>
 <Para>Track how your links are performing across the web with our 
   advanced statistics dashboard.</Para></Container>
+         <FeatureCard />
+         
          </Container>
       
 

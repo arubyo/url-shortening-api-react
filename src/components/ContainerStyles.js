@@ -36,7 +36,7 @@ font-weight: 700;
 export const Intro = styled.p`
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
-color: #000000;
+color:  #808080;
 margin-bottom: 20px;
 font-weight: bold;
 `;
