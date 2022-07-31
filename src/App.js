@@ -6,17 +6,30 @@ import Footer from './components/Footer';
 import Container from 'react-bootstrap/esm/Container';
 import MainContainer from './components/Container';
 import LinkContainer from './components/LinkContainer';
+import { Heading, Para } from './components/TypographyStyles';
+
 function App() {
   return (
     <div className="App">
       <Navigation />
       <MainContainer />
       <LinkContainer />
-      <Container fluid style={{ backgroundColor: "hsl(0, 0%, 75%)",
+      <Container fluid style={{ backgroundColor: "#f8f9fa",
      paddingBottom: "335px",
      height: "100vh" 
 				 }}>
+          <Container style={{ display: "flex",
+     flexDirection: "column",
+     justifyContent: "center",
+     alignItems: "center",
+     paddingTop: "10vh",
+     maxWidth: "40vw"
+				 }}>
 
+          
+<Heading>Advanced Statistics</Heading>
+<Para>Track how your links are performing across the web with our 
+  advanced statistics dashboard.</Para></Container>
          </Container>
       
 
