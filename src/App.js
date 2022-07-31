@@ -23,19 +23,23 @@ function App() {
      flexDirection: "column",
      justifyContent: "center",
      alignItems: "center",
-     paddingTop: "10vh",
+     paddingTop: "20vh",
      maxWidth: "40vw"
 				 }}>
 
           
 <Heading>Advanced Statistics</Heading>
 <Para>Track how your links are performing across the web with our 
-  advanced statistics dashboard.</Para></Container>
+  advanced statistics dashboard.</Para>
+  
+  
+  
+  </Container>
          <FeatureCard />
-         
+
          </Container>
       
-
+         
       <Footer />
     </div>
   );

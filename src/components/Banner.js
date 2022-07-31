@@ -7,19 +7,15 @@ import { ColContainer } from './BannerStyles';
 export default function Banner() {
   return (
     <>
-    <Container fluid style={{ backgroundColor: "hsl(257, 27%, 26%)",
-                paddingTop: "40px",
-                paddingBottom: "40px",
-                
-				 }}>
+    <ColContainer>
        
-         <ColContainer>
+      
         
         <Heading>Boost Your Links Today</Heading>
         <Button>Get Started</Button>
-        </ColContainer>
+    
         
-    </Container>
+    </ColContainer>
     </>
   
   )

@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import BannerBg from './../assets/images/bg-boost-desktop.svg';
+
 <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');</style>
 
 export const Button = styled.button`
@@ -23,5 +25,7 @@ display: grid;
 justify-content: center;
 align-items: center;
 justify-items: center;
-
+padding: 2em;
+background-image: url(${BannerBg});
+background-color: hsl(257, 27%, 26%);
 `;

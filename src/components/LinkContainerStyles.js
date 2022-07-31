@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import LinkBg from './../assets/images/bg-shorten-desktop.svg';
+
 
 
 export const BoxedContainer = styled.div`
@@ -6,7 +8,9 @@ export const BoxedContainer = styled.div`
 	max-width: 80vw;
 	margin: 0 auto;
     height: 15vh;
-    background: hsl(257, 27%, 26%);
+    background-image: url(${LinkBg});
+    backgroundRepeat: 'no-repeat';
+    background-color:  hsl(257, 27%, 26%);
     display: flex;
     flex-direction: row;
     align-content: center;
