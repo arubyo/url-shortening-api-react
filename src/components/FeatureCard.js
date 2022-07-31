@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import Banner from './Banner';
 import { Records, Recognition, Customizable } from './FeatureCardStyles';
 <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');</style>
 
@@ -39,9 +38,6 @@ links, supercharging audience engagement.
       
       </Card.Body>
     </Card>
-    <Container>
-    <Banner />
-    </Container>
     </Container>
   )
 }

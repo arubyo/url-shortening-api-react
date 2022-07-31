@@ -7,7 +7,7 @@ import { Button, ButtonContainer } from './NavbarStyles';
 function Navigation() {
   return (
     <>
-      <Navbar bg="light" variant="light">
+      <Navbar bg="none" variant="light">
         <Container>
           <Navbar.Brand href="#home">
           <h3 style={{ color: "black",
